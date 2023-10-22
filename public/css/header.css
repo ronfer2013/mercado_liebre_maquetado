@@ -1,0 +1,42 @@
+header{
+    background-color: var(--colorAmarillo);
+}
+
+.header__div__logo{
+   margin-left: 20px;
+}
+
+.header__div__barra{
+    margin-left: 20px;
+}
+
+.header__div__titulo{
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+.header__div__titulo a{
+    color: black;
+}
+
+.header__nav__ingreso{
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__div__burguer i{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    background-color: blue;
+    padding: 7.5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}

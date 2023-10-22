@@ -1,0 +1,28 @@
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --tipografiaGeneral: "Roboto", sans-serif;
+  }
+
+  body{
+    font-family: var(--tipografiaGeneral);
+    
+  }
+
+ul li {
+    list-style: none;
+    font-size: 12px; 
+}
+
+a{
+    text-decoration: none; 
+
+}
+
+ul{
+    padding-left: 0;
+}

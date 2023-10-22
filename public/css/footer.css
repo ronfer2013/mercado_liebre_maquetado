@@ -1,0 +1,23 @@
+footer{
+text-align: center;
+}
+
+footer i{
+    font-size: 2em;
+    color: var(--colorCeleste);
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+footer h4{
+    margin-bottom: 0;
+}
+
+footer p{
+    font-size: 3vw;
+    margin-top: 0;
+}
+
+.footer__section_copy{
+    text-align: left;
+}
