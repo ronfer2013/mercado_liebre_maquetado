@@ -35,7 +35,7 @@ header{
     color: white;
     margin-bottom: 20px;
     margin-left: 150px;
-    background-color: blue;
+    background-color: var(--colorCeleste);
     padding: 7.5px 10px;
     border-radius: 5px;
     display: inline-block;
