@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
     --colorAmarillo: #EAC926;
     --colorAzul: #03264C;
@@ -10,7 +16,10 @@
 
   body{
     font-family: var(--tipografiaGeneral);
-    
+    background-color: var(--colorGrisClaro);
+    max-width: 1140px;
+    margin: 0 auto;
+   
   }
 
 ul li {

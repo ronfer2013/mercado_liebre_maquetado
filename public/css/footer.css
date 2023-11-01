@@ -1,5 +1,10 @@
 footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 text-align: center;
+background-color: #ffffff;
 }
 
 footer i{
@@ -11,6 +16,7 @@ footer i{
 
 footer h4{
     margin-bottom: 0;
+    font-size: 4vw;
 }
 
 footer p{

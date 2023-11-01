@@ -4,39 +4,52 @@ header{
 
 .header__div__logo{
    margin-left: 20px;
+   padding-top: 20px;
+   margin-bottom: 10px;
+   width: 45%;
 }
 
 .header__div__barra{
-    margin-left: 20px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   width: 45%;
 }
 
 .header__div__titulo{
-    margin-left: 50px;
-    font-size: 12px;
-    font-weight: 100;
+    font-size: 15px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-.header__div__titulo a{
-    color: black;
+.header__nav__menu{
+margin-bottom: 15px;
+}
+.header__nav__menu ul li{
+    font-size: 15px;
 }
 
 .header__nav__ingreso{
-    font-size: 12px;
-    font-weight: 100;
-    display: flex;
-    align-items: center;
+  margin-bottom: 15px;
+}
+.header__nav__ingreso ul li{
+   font-size: 15px;
 }
 
+.header__nav__ingreso i{
+    margin-left: 5px;
+ }
 
-.header__div__burguer i{
+.header__div__burguer {
+    display: flex;
+    justify-content: center;
+}
+
+.header__div__burguer a{
     font-size: 20px;
     color: white;
     margin-bottom: 20px;
-    margin-left: 150px;
     background-color: var(--colorCeleste);
     padding: 7.5px 10px;
-    border-radius: 5px;
-    display: inline-block;
+    border-radius: 5px;    
 }
