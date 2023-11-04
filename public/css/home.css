@@ -1,20 +1,20 @@
-main  h3{
+.home__main  h3{
     font-size: 24px;
 }
 
-main h6{
+.home__main h6{
     font-size: 18px;
 }
 
-main p{
+.home__main p{
     font-size: 16px;
 }
 
-main h5{
+.home__main h5{
     font-size: 20px;
 }
 
-main img {
+.home__main img {
     width: 100%;
     flex-wrap: wrap;
 }
