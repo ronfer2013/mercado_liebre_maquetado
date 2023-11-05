@@ -1,5 +1,12 @@
+/* mobile */
+
 header{
     background-color: var(--colorAmarillo);
+}
+
+header ul li{
+
+    display: none;
 }
 
 .header__div__logo{
@@ -23,14 +30,14 @@ header{
 }
 
 .header__nav__menu{
-margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 .header__nav__menu ul li{
     font-size: 15px;
 }
 
 .header__nav__ingreso{
-  margin-bottom: 15px;
+ padding-bottom: 15px;
 }
 .header__nav__ingreso ul li{
    font-size: 15px;
@@ -52,4 +59,17 @@ margin-bottom: 15px;
     background-color: var(--colorCeleste);
     padding: 7.5px 10px;
     border-radius: 5px;    
+}
+
+@media (min-width: 768px) {
+
+header ul li{
+    display: block;
+    padding-left: 20px;
+}
+
+.header__div__burguer {
+    display: none;
+}
+    
 }
