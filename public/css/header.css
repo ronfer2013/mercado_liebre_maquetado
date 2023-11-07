@@ -1,75 +1,81 @@
 /* mobile */
 
-header{
+header {
     background-color: var(--colorAmarillo);
+    padding: 20px;
 }
 
-header ul li{
+header ul li {
 
     display: none;
 }
 
-.header__div__logo{
-   margin-left: 20px;
-   padding-top: 20px;
-   margin-bottom: 10px;
-   width: 45%;
+.header__div__logo--barra--titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.header__div__barra{
-   margin-left: 20px;
-   margin-bottom: 10px;
-   width: 45%;
+.header__div__logo {
+    margin-right: 5px;
+    width: 30%;
 }
 
-.header__div__titulo{
-    font-size: 15px;
+.header__div__barra {
+    margin-left: 5px;
+    width: 30%;
+}
+
+.header__div__titulo {
+    width: 30%;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-.header__nav__menu{
+.header__nav__menu {
     padding-bottom: 15px;
 }
-.header__nav__menu ul li{
+
+.header__nav__menu ul li {
     font-size: 15px;
 }
 
-.header__nav__ingreso{
- padding-bottom: 15px;
-}
-.header__nav__ingreso ul li{
-   font-size: 15px;
+.header__nav__ingreso {
+    padding-bottom: 15px;
 }
 
-.header__nav__ingreso i{
+.header__nav__ingreso ul li {
+    font-size: 15px;
+}
+
+.header__nav__ingreso i {
     margin-left: 5px;
- }
+}
 
 .header__div__burguer {
     display: flex;
     justify-content: center;
 }
 
-.header__div__burguer a{
+.header__div__burguer a {
     font-size: 20px;
     color: white;
     margin-bottom: 20px;
     background-color: var(--colorCeleste);
     padding: 7.5px 10px;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 @media (min-width: 768px) {
 
-header ul li{
-    display: block;
-    padding-left: 20px;
-}
+    header ul li {
+        display: block;
+        padding-left: 20px;
+    }
 
-.header__div__burguer {
-    display: none;
-}
-    
+    .header__div__burguer {
+        display: none;
+    }
+
 }
